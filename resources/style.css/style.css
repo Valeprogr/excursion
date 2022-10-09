@@ -1,11 +1,12 @@
 body{
     background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 
 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
     font-weight: normal;
     font-size:  50px;
     text-align: center;
@@ -14,10 +15,29 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
+    align-content:space-around;
+    padding: 100px;
 }
 
 .main-container p{
     color: aquamarine;
     font-size: 16px;
 }
+
+.conteiner-travel-guide{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.conteiner-travel-guide h2{
+    font-weight:300;
+    font-size: 42px;
+}
+.conteiner-travel-guide p{
+    color: gray;
+    font-size: 21px;
+}
+
